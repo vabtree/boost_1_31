@@ -11,3 +11,5 @@ boost_1_31_0\boost\mpl\apply.hpp:334: error: missing binary operator before toke
 * Make changes in `\boost\mpl\apply.hpp` from above `apply--fix.hpp`.
 
 * For more detail answer see `pdf` from the repository.
+
+* https://svn.boost.org/trac/boost/ticket/6631
