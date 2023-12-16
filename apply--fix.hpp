@@ -159,8 +159,9 @@ struct apply
 #endif // BOOST_MPL_APPLY_HPP_INCLUDED
 
 ///// iteration, depth == 1
-
+/* erroneous commented below */
 ////#elif BOOST_PP_ITERATION_DEPTH() == 1
+/* instead wrapped by #else #if */
 #else
 #if BOOST_PP_ITERATION_DEPTH() == 1
 
@@ -354,5 +355,5 @@ struct BOOST_PP_CAT(apply_impl,i)<
 
 #   undef j
 
+#endif // BOOST_PP_ITERATION_DEPTH
 #endif // BOOST_PP_IS_ITERATING
-#endif
